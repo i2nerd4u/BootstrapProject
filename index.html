@@ -470,6 +470,9 @@
             <div class="col-md-6 mb-3 d-flex">
                 <div class="card h-100">
                     <div class="card-body">
+                        <div class="text-center mb-3">
+                            <img src="images/campstephenslogo.jpg" alt="Camp Stephens Logo" style="height: 70px; length: 70px;">
+                        </div>
                         <h5 class="card-title">Camp Stephens</h5>
                         <div class="mb-3 p-3 bg-light rounded">
                             <p class="mb-0 text-muted">My time working at Camp Stephens is probably the accomplishment that I am most proud of. 
@@ -537,6 +540,9 @@
             <div class="col-md-6 mb-3 d-flex">
                 <div class="card h-100">
                     <div class="card-body">
+                        <div class="text-center mb-3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" style="height: 55px;">
+                        </div>
                         <h5 class="card-title">My AWS internship</h5>
                         <div class="mb-3 p-3 bg-light rounded">
                             <p class="mb-0 text-muted">My Internship at AWS was such an amazing experience and challenge. 
@@ -636,9 +642,15 @@
         <div class="skill-card p-4 text-center shadow-sm rounded-4 h-100">
           <i class="bi bi-trophy fs-1 mb-3"></i>
           <h4 class="fw-bold mb-3">Achievements and Certifications</h4>
+          
+          <!-- AWS Certification Badge -->
+          <div class="mb-4 p-3 bg-white rounded-3 shadow-sm">
+            <img src="images/CloudPractitioner.jpg" alt="AWS Certified Cloud Practitioner" class="img-fluid rounded" style="max-height: 120px; width: auto;">
+            <p class="small text-muted mt-2 mb-0">AWS Certified Cloud Practitioner</p>
+          </div>
+          
           <ul class="skill-list list-unstyled">
             <li>Completed AWS Cloud Solutions Associate Internship & received inclined offer</li>
-            <li>AWS Certified Cloud Practitioner</li>
             <li>Trained Lifeguard (Bronze cross and Medallion)</li>
             <li>Trained in primary first aid and CPR-C</li>
             <li>Part of Scouting Ireland for 11 years</li>
@@ -673,7 +685,8 @@
         <div class="hobby-card p-4 text-center shadow-sm rounded-4">
           <i class="bi bi-tree fs-2 mb-3"></i>
           <h4 class="fw-bold mb-2">The Outdoors</h4>
-          <p class="mb-0">Hiking, swimming, foraging and natural environments, and teaching others about nature. I also really love gardening and growing vegetables, herbs, fruits and flowers!</p>
+          <p class="mb-3">Hiking, swimming, foraging and natural environments, and teaching others about nature. I also really love gardening and growing vegetables, herbs, fruits and flowers!</p>
+          <button class="btn btn-success btn-sm" onclick="showGarden()">View My Garden</button>
         </div>
       </div>
 
@@ -718,14 +731,15 @@
 </section>
 
 <!-- CAMP IMAGES CAROUSEL -->
-<section id="camp-gallery" class="py-5">
-  <div class="container d-flex justify-content-center">
-    <!-- Project 3 with Garden Carousel -->
-    <div class="card" style="max-width: 1000px; width: 100%;">
-      <div class="card-body text-center">
-        <h5 class="card-title mb-4">My garden on Copeland Island </h5>
+<section id="camp-gallery" class="py-5" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-4">My Canoe Garden on Copeland Island</h5>
 
-        <div id="campCarousel3" class="carousel slide" data-bs-ride="carousel">
+            <div id="campCarousel3" class="carousel slide" data-bs-ride="carousel">
 
           <!-- Indicators -->
           <div class="carousel-indicators">
@@ -766,6 +780,63 @@
             <span class="carousel-control-next-icon"></span>
           </button>
 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title mb-4 text-center">What I Grew in My Garden:</h5>
+            <div class="d-flex flex-wrap gap-2" style="font-size: 0.9rem;">
+              <span class="badge bg-success px-3 py-2">Tomatoes (lots)</span>
+              <span class="badge bg-success px-3 py-2">Black Tomatoes</span>
+              <span class="badge bg-success px-3 py-2">Cucumbers</span>
+              <span class="badge bg-success px-3 py-2">Cucamelon</span>
+              <span class="badge bg-success px-3 py-2">Peppers</span>
+              <span class="badge bg-success px-3 py-2">Bell Peppers</span>
+              <span class="badge bg-success px-3 py-2">Chillis</span>
+              <span class="badge bg-success px-3 py-2">Potatoes</span>
+              <span class="badge bg-success px-3 py-2">Cauliflower</span>
+              <span class="badge bg-success px-3 py-2">Squash</span>
+              <span class="badge bg-success px-3 py-2">Carrots</span>
+              <span class="badge bg-success px-3 py-2">Peas</span>
+              <span class="badge bg-success px-3 py-2">Snap Peas</span>
+              <span class="badge bg-success px-3 py-2">Celery</span>
+              <span class="badge bg-success px-3 py-2">Lettuce</span>
+              <span class="badge bg-success px-3 py-2">Salad Mix</span>
+              <span class="badge bg-success px-3 py-2">Brussels Sprouts</span>
+              <span class="badge bg-success px-3 py-2">Kale</span>
+              <span class="badge bg-success px-3 py-2">Arugula</span>
+              <span class="badge bg-success px-3 py-2">Radish</span>
+              <span class="badge bg-success px-3 py-2">Beets</span>
+              <span class="badge bg-success px-3 py-2">Onions</span>
+              <span class="badge bg-success px-3 py-2">Shallots</span>
+              <span class="badge bg-success px-3 py-2">Green Beans</span>
+              <span class="badge bg-success px-3 py-2">Zucchini</span>
+              <span class="badge bg-success px-3 py-2">Corn</span>
+              <span class="badge bg-info px-3 py-2">Garlic</span>
+              <span class="badge bg-info px-3 py-2">Chives</span>
+              <span class="badge bg-info px-3 py-2">Basil</span>
+              <span class="badge bg-info px-3 py-2">Sage</span>
+              <span class="badge bg-info px-3 py-2">Parsley</span>
+              <span class="badge bg-info px-3 py-2">Oregano</span>
+              <span class="badge bg-info px-3 py-2">Thyme</span>
+              <span class="badge bg-info px-3 py-2">Rosemary</span>
+              <span class="badge bg-info px-3 py-2">Cilantro</span>
+              <span class="badge bg-info px-3 py-2">Mint</span>
+              <span class="badge bg-info px-3 py-2">Lavender</span>
+              <span class="badge bg-warning px-3 py-2">Watermelon</span>
+              <span class="badge bg-warning px-3 py-2">Strawberries</span>
+              <span class="badge bg-warning px-3 py-2">Wild Strawberry</span>
+              <span class="badge bg-warning px-3 py-2">Raspberries</span>
+              <span class="badge bg-warning px-3 py-2">Blueberries</span>
+              <span class="badge bg-warning px-3 py-2">Rhubarb</span>
+              <span class="badge bg-primary px-3 py-2">Sunflowers</span>
+              <span class="badge bg-primary px-3 py-2">Wildflowers</span>
+              <span class="badge bg-primary px-3 py-2">Marigolds</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -848,6 +919,13 @@ window.addEventListener('scroll', function() {
         hero.style.opacity = Math.max(0, 1 - scrolled / hero.offsetHeight);
     }
 });
+
+// Function to show garden section
+function showGarden() {
+    const gardenSection = document.getElementById('camp-gallery');
+    gardenSection.style.display = 'block';
+    gardenSection.scrollIntoView({ behavior: 'smooth' });
+}
 </script>
 </body>
 </html>
